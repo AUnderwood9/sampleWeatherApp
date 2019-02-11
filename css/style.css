@@ -1,0 +1,74 @@
+#main-container{
+	width: 70vw;
+	height: 80vh;
+	margin: 0 auto;
+}
+
+.containerBoxWidth{
+	width: inherit;
+}
+
+#forcast-city-state{
+	height: 10vh;
+}
+/* 
+#forcast-preview-image{
+	height: 30vh;
+} */
+
+#forcast-preview-image img{
+	width: inherit;
+	height: inherit;
+	object-fit: fill;
+}
+
+.testBorder{
+	border: 2px solid goldenrod;
+}
+
+.artisanSectionDivider{
+	border: 0.75px rgba(201, 202, 217, 0.80) solid;
+}
+
+.artisanSectionDividerSmall{
+	width: 80%;
+}
+
+#forcast-container{
+	width: 70vw;
+	height: 50%;
+}
+
+.forcastWeatherBox{
+	height: 30vh;
+}
+
+.forcastDayBox{
+	height: 10vh;
+}
+
+#current-day-forcast-section{
+	width: 50%;
+	float: left;
+}
+
+#next-day-forcast-section{
+	width: 50%;
+	float: left;
+}
+
+[class*="forcastBox"] img{
+	/* width: 5vw; */
+	/* margin: 0 6vw; */
+	/* height: 100%; */
+	display: block;
+	margin: 3vh auto;
+}
+
+.forcastBoxLow{
+	float: left;
+}
+
+.forcastBoxHigh{
+	float: right;
+}
